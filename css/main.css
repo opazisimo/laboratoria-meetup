@@ -251,6 +251,38 @@ body {
 	}
 		
 }*/
+#meetup {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #FFA000; }
+  #meetup .titulo h1 {
+    text-align: center;
+    font-family: "PT Sans";
+    color: #FFC107;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #meetup .titulo h1 span {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 60px;
+      font-weight: bold; }
+  #meetup .suma {
+    text-align: center; }
+    #meetup .suma img {
+      width: 100px; }
+    #meetup .suma span {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 60px;
+      font-weight: bold;
+      margin-right: 30px;
+      margin-left: 30px; }
+    #meetup .suma .fa {
+      color: #FFFFFF;
+      font-size: 80px; }
+
 body {
   margin: 0; }
 
@@ -402,6 +434,38 @@ body {
 	}
 		
 }*/
+#meetup {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #FFA000; }
+  #meetup .titulo h1 {
+    text-align: center;
+    font-family: "PT Sans";
+    color: #FFC107;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #meetup .titulo h1 span {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 60px;
+      font-weight: bold; }
+  #meetup .suma {
+    text-align: center; }
+    #meetup .suma img {
+      width: 100px; }
+    #meetup .suma span {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 60px;
+      font-weight: bold;
+      margin-right: 30px;
+      margin-left: 30px; }
+    #meetup .suma .fa {
+      color: #FFFFFF;
+      font-size: 80px; }
+
 #programa {
   margin-top: 50px;
   margin-bottom: 50px; }

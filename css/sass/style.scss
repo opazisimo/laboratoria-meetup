@@ -157,3 +157,33 @@ body{
 	}
 		
 }*/
+
+#meetup {
+	@include pad-seccion (50px, 150px);
+	background-color: $naranjo-lab;
+	.titulo {
+		h1 {
+			text-align: center;
+			@include texto ($amarillo-lab, 60px, bold);
+			@include margen-seccion (50px, 50px);
+			span {
+				@include texto ($white, 60px, bold);
+			}
+		}
+	}
+	.suma {
+		text-align: center;
+		img {
+			width: 100px;
+		}
+		span {
+			@include texto ($white, 60px, bold);
+			margin-right: 30px; 
+			margin-left: 30px;
+		}
+		.fa {
+			color: $white;
+			font-size: 80px;
+		}
+	}
+}
