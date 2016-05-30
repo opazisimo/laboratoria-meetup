@@ -2,6 +2,7 @@ body{
 	margin: 0;
 }
 #bienvenida{
+	@include pad-seccion (100px, 0px);
 	background-image: url(../image/bgstars.jpg);
 		background-size: cover;
 		background-attachment: fixed;
@@ -11,23 +12,31 @@ body{
   		text-align: center;
 	.fondo{
 		.welcome{
-  			width: 20%;
-  			margin-top: 40px;
-
+  			width: 40%;
   		}
-  		.btn-primary{
-  			background-color: $naranjo-lab;
-  			border: 1px solid $naranjo-lab;
-  			color: $white;
-  			font-weight: bold;
-  			margin-top: 200px;
-			&:hover{
-				background-color: transparent;
-				border: transparent;
-			}
+  		@media (min-width: 220px) and (max-width: 767px) {
+			.welcome{
+	  			width: 60%;
+	  			margin-top: 40px;
+	  		}	
   		}
 	}
+	.botones {
+		@include margen-seccion (100px, 100px);
+		.btn-lg{
+			@include margen-seccion (30px, 30px);
+			background-color: $naranjo-lab;
+			border: 1px solid $naranjo-lab;
+			color: $white;
+			font-weight: bold;
+			&:hover{
+			background-color: transparent;
+			border: transparent;
+			}
+		}
+	}
 }
+
 #laboratoria{
 	margin: 60px 0;
 	.estructura-texto{
