@@ -54,3 +54,106 @@ body{
 		margin-left: 100px;
 	}
 }	
+
+#colaboradores {
+	@include pad-seccion (50px, 70px);
+	background-color: $naranjo-lab;
+	h1 {
+		@include texto ($white, 60px, bold);
+		@include margen-seccion (50px, 50px);
+	}
+	.colab {
+		padding: 10px;
+		text-align: center;
+		height:250px;
+		&:hover {
+			background-color:$white;
+			opacity: 0.8;
+			background-image: none;
+			p {
+				visibility: visible;
+				@include texto ($texto-osc, 12px, normal);
+			}
+			h3 {
+				visibility: visible;
+				@include texto ($naranjo-lab, 25px, bolder);
+			}
+		}
+		h3 {
+			visibility: hidden;
+		}
+		p {
+			visibility: hidden;
+		}
+	}
+	.colabimg {
+		text-align: center;
+		height:250px;
+	}
+	.laboratoria {
+		background: url(../image/logoblanco.png);
+		background-size: 250px;
+		background-position: center;
+		background-repeat: no-repeat;
+
+	}
+	.gitlab {
+		background: url(../image//icon-Gitlab.png);
+		background-size: 250px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.fabricamedios {
+		background: url(../image/icon-Blanco.png);
+		background-size: 250px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.delsol {
+		background: url(../image/icon-sol.png);
+		background-size: 250px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
+
+/*{
+	background-color: #B6B6B6;
+	padding: 20px;
+	margin: 10px;
+	height: 300px;
+	float: left;
+	.colab {
+		border: 2px solid #FFECB3;
+		border-radius: 13px;
+		.text-colaborador, .colaborador-text {
+			visibility: hidden;
+		}
+
+		&:hover {
+			border: 2px solid black;
+			border-radius: 16px;
+			padding-top: 0;
+			.colaborador-text {
+				color: #FFA000;
+				visibility: visible;
+			}
+			.text-colaborador {
+				color: black;
+				text-align: justify;
+				visibility: visible;
+			}
+		}
+		img {
+			height: 200px;
+			width: 100%;
+			&:hover {
+				visibility: hidden;
+			}
+		}
+	}
+	.colaborar-title {
+		color: #FFECB3;
+	}
+		
+}*/

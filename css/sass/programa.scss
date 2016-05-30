@@ -19,6 +19,17 @@
 		margin-right: 20px;
 	}
 	.media:hover{
-		background-color: #B6B6B6;
+		background-color: $light-lab;
+	}
+	.media-body {
+		h3 {
+			@include texto ($texto-osc, 24px, bolder);
+		}
+		h4 {
+			@include texto ($naranjo-lab, 20px, bolder);
+		}
+		p {
+			@include texto ($texto-osc, 16px, normal);
+		}
 	}
 }

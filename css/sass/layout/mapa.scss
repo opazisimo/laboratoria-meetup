@@ -7,6 +7,7 @@
 	}
 	.texto {
 		h1 {
+			text-align: center;
 			@include texto ($naranjo-lab, 60px, bold);
 		}
 		p {

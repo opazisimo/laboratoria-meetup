@@ -45,6 +45,7 @@
     height: 300px;
     border: 0px; }
   #mapa .texto h1 {
+    text-align: center;
     font-family: "PT Sans";
     color: #FFA000;
     font-size: 60px;
@@ -151,6 +152,105 @@ body {
     margin-top: 80px;
     margin-left: 100px; }
 
+#colaboradores {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #FFA000; }
+  #colaboradores h1 {
+    font-family: "PT Sans";
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #colaboradores .colab {
+    padding: 10px;
+    text-align: center;
+    height: 250px; }
+    #colaboradores .colab:hover {
+      background-color: #FFFFFF;
+      opacity: 0.8;
+      background-image: none; }
+      #colaboradores .colab:hover p {
+        visibility: visible;
+        font-family: "PT Sans";
+        color: #212121;
+        font-size: 12px;
+        font-weight: normal; }
+      #colaboradores .colab:hover h3 {
+        visibility: visible;
+        font-family: "PT Sans";
+        color: #FFA000;
+        font-size: 25px;
+        font-weight: bolder; }
+    #colaboradores .colab h3 {
+      visibility: hidden; }
+    #colaboradores .colab p {
+      visibility: hidden; }
+  #colaboradores .colabimg {
+    text-align: center;
+    height: 250px; }
+  #colaboradores .laboratoria {
+    background: url(../image/logoblanco.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .gitlab {
+    background: url(../image//icon-Gitlab.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .fabricamedios {
+    background: url(../image/icon-Blanco.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .delsol {
+    background: url(../image/icon-sol.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+/*{
+	background-color: #B6B6B6;
+	padding: 20px;
+	margin: 10px;
+	height: 300px;
+	float: left;
+	.colab {
+		border: 2px solid #FFECB3;
+		border-radius: 13px;
+		.text-colaborador, .colaborador-text {
+			visibility: hidden;
+		}
+
+		&:hover {
+			border: 2px solid black;
+			border-radius: 16px;
+			padding-top: 0;
+			.colaborador-text {
+				color: #FFA000;
+				visibility: visible;
+			}
+			.text-colaborador {
+				color: black;
+				text-align: justify;
+				visibility: visible;
+			}
+		}
+		img {
+			height: 200px;
+			width: 100%;
+			&:hover {
+				visibility: hidden;
+			}
+		}
+	}
+	.colaborar-title {
+		color: #FFECB3;
+	}
+		
+}*/
 body {
   margin: 0; }
 
@@ -203,6 +303,105 @@ body {
     margin-top: 80px;
     margin-left: 100px; }
 
+#colaboradores {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #FFA000; }
+  #colaboradores h1 {
+    font-family: "PT Sans";
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #colaboradores .colab {
+    padding: 10px;
+    text-align: center;
+    height: 250px; }
+    #colaboradores .colab:hover {
+      background-color: #FFFFFF;
+      opacity: 0.8;
+      background-image: none; }
+      #colaboradores .colab:hover p {
+        visibility: visible;
+        font-family: "PT Sans";
+        color: #212121;
+        font-size: 12px;
+        font-weight: normal; }
+      #colaboradores .colab:hover h3 {
+        visibility: visible;
+        font-family: "PT Sans";
+        color: #FFA000;
+        font-size: 25px;
+        font-weight: bolder; }
+    #colaboradores .colab h3 {
+      visibility: hidden; }
+    #colaboradores .colab p {
+      visibility: hidden; }
+  #colaboradores .colabimg {
+    text-align: center;
+    height: 250px; }
+  #colaboradores .laboratoria {
+    background: url(../image/logoblanco.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .gitlab {
+    background: url(../image//icon-Gitlab.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .fabricamedios {
+    background: url(../image/icon-Blanco.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+  #colaboradores .delsol {
+    background: url(../image/icon-sol.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+/*{
+	background-color: #B6B6B6;
+	padding: 20px;
+	margin: 10px;
+	height: 300px;
+	float: left;
+	.colab {
+		border: 2px solid #FFECB3;
+		border-radius: 13px;
+		.text-colaborador, .colaborador-text {
+			visibility: hidden;
+		}
+
+		&:hover {
+			border: 2px solid black;
+			border-radius: 16px;
+			padding-top: 0;
+			.colaborador-text {
+				color: #FFA000;
+				visibility: visible;
+			}
+			.text-colaborador {
+				color: black;
+				text-align: justify;
+				visibility: visible;
+			}
+		}
+		img {
+			height: 200px;
+			width: 100%;
+			&:hover {
+				visibility: hidden;
+			}
+		}
+	}
+	.colaborar-title {
+		color: #FFECB3;
+	}
+		
+}*/
 #programa {
   margin-top: 50px;
   margin-bottom: 50px; }
@@ -228,6 +427,21 @@ body {
     height: 200px;
     margin-right: 20px; }
   #programa .media:hover {
-    background-color: #B6B6B6; }
+    background-color: #FFECB3; }
+  #programa .media-body h3 {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 24px;
+    font-weight: bolder; }
+  #programa .media-body h4 {
+    font-family: "PT Sans";
+    color: #FFA000;
+    font-size: 20px;
+    font-weight: bolder; }
+  #programa .media-body p {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 16px;
+    font-weight: normal; }
 
 /*# sourceMappingURL=main.css.map */
