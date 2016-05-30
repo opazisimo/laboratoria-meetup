@@ -1,5 +1,16 @@
-iframe{
-	width:500px;
-	height:300px;
-	border:0px;
+#mapa {
+	@include margen-seccion (50px, 50px);
+	iframe{
+		width:500px;
+		height:300px;
+		border:0px;
+	}
+	.texto {
+		h1 {
+			@include texto ($naranjo-lab, 40px, bold);
+		}
+		p {
+			@include texto ($texto-osc, 16px, normal);
+		}
+	}
 }

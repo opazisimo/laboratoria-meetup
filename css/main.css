@@ -37,6 +37,24 @@
   #footer .tres img {
     width: 80px; }
 
+#mapa {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  #mapa iframe {
+    width: 500px;
+    height: 300px;
+    border: 0px; }
+  #mapa .texto h1 {
+    font-family: "PT Sans";
+    color: #FFA000;
+    font-size: 40px;
+    font-weight: bold; }
+  #mapa .texto p {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 16px;
+    font-weight: normal; }
+
 #header {
   background-color: #FFFFFF; }
   #header .navbar-default .navbar-toggle .icon-bar {
