@@ -13,3 +13,15 @@
 	font-weight: $peso;
 
 }
+
+@mixin estructura-texto ($colortitulo, $colortexto) {
+	font-family: "PT Sans"
+	h1 {
+		font-weight: bolder;
+		color: $colortitulo;
+	}
+	p {
+		color: $colortexto;
+		font-weight: normal;
+	}
+}
