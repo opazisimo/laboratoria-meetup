@@ -1,3 +1,13 @@
-
+#programa {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  #programa h1, #programa h5 {
+    text-align: center; }
+  #programa img {
+    width: 220px;
+    height: 200px;
+    margin-right: 20px; }
+  #programa .media:hover {
+    background-color: #B6B6B6; }
 
 /*# sourceMappingURL=main.css.map */
