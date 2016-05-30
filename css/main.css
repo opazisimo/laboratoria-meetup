@@ -126,27 +126,31 @@ body {
       margin-top: 30px;
       margin-bottom: 30px;
       background-color: #FFA000;
-      border: 1px solid #FFA000;
-      color: #FFFFFF;
-      font-weight: bold; }
+      border: 1px solid #FFA000; }
       #bienvenida .botones .btn-lg:hover {
         background-color: transparent;
         border: transparent; }
+      #bienvenida .botones .btn-lg a {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none; }
 
 #laboratoria {
   margin: 60px 0; }
-  #laboratoria .texto h1 {
-    font-family: "PT Sans";
-    color: #FFA000;
-    font-size: 60px;
-    font-weight: bold; }
-  #laboratoria .texto p {
-    font-family: "PT Sans";
-    color: #212121;
-    font-size: 16px;
-    font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: 30px; }
+  #laboratoria .texto {
+    text-align: center; }
+    #laboratoria .texto h1 {
+      font-family: "PT Sans";
+      color: #FFA000;
+      font-size: 60px;
+      font-weight: bold; }
+    #laboratoria .texto p {
+      font-family: "PT Sans";
+      color: #212121;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 30px;
+      margin-bottom: 30px; }
   #laboratoria .lab {
     width: 60%;
     margin-top: 80px;
@@ -262,26 +266,78 @@ body {
     font-size: 60px;
     font-weight: bold;
     margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 0px; }
     #meetup .titulo h1 span {
       font-family: "PT Sans";
       color: #FFFFFF;
       font-size: 60px;
       font-weight: bold; }
+  @media (min-width: 220px) and (max-width: 767px) {
+    #meetup .titulo h1 {
+      text-align: center;
+      font-family: "PT Sans";
+      color: #FFC107;
+      font-size: 40px;
+      font-weight: bold; }
+      #meetup .titulo h1 span {
+        font-family: "PT Sans";
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: bold; } }
   #meetup .suma {
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center; }
     #meetup .suma img {
-      width: 100px; }
+      width: 50px; }
     #meetup .suma span {
       font-family: "PT Sans";
       color: #FFFFFF;
-      font-size: 60px;
+      font-size: 50px;
       font-weight: bold;
-      margin-right: 30px;
-      margin-left: 30px; }
+      margin-right: 20px;
+      margin-left: 20px; }
     #meetup .suma .fa {
       color: #FFFFFF;
-      font-size: 80px; }
+      font-size: 50px; }
+  #meetup .col-md-4 {
+    box-sizing: border-box; }
+  #meetup .blanco {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    height: 350px; }
+    #meetup .blanco button {
+      background-color: #FFA000; }
+      #meetup .blanco button a {
+        color: #FFFFFF;
+        text-decoration: none; }
+      #meetup .blanco button:hover {
+        background-color: #FFC107; }
+    #meetup .blanco .fa {
+      color: #FFC107;
+      font-size: 60px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  #meetup .parraf {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center; }
+    #meetup .parraf button {
+      background-color: #FFC107; }
+      #meetup .parraf button a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: bold; }
 
 body {
   margin: 0; }
@@ -309,27 +365,31 @@ body {
       margin-top: 30px;
       margin-bottom: 30px;
       background-color: #FFA000;
-      border: 1px solid #FFA000;
-      color: #FFFFFF;
-      font-weight: bold; }
+      border: 1px solid #FFA000; }
       #bienvenida .botones .btn-lg:hover {
         background-color: transparent;
         border: transparent; }
+      #bienvenida .botones .btn-lg a {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none; }
 
 #laboratoria {
   margin: 60px 0; }
-  #laboratoria .texto h1 {
-    font-family: "PT Sans";
-    color: #FFA000;
-    font-size: 60px;
-    font-weight: bold; }
-  #laboratoria .texto p {
-    font-family: "PT Sans";
-    color: #212121;
-    font-size: 16px;
-    font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: 30px; }
+  #laboratoria .texto {
+    text-align: center; }
+    #laboratoria .texto h1 {
+      font-family: "PT Sans";
+      color: #FFA000;
+      font-size: 60px;
+      font-weight: bold; }
+    #laboratoria .texto p {
+      font-family: "PT Sans";
+      color: #212121;
+      font-size: 16px;
+      font-weight: normal;
+      margin-top: 30px;
+      margin-bottom: 30px; }
   #laboratoria .lab {
     width: 60%;
     margin-top: 80px;
@@ -445,26 +505,78 @@ body {
     font-size: 60px;
     font-weight: bold;
     margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 0px; }
     #meetup .titulo h1 span {
       font-family: "PT Sans";
       color: #FFFFFF;
       font-size: 60px;
       font-weight: bold; }
+  @media (min-width: 220px) and (max-width: 767px) {
+    #meetup .titulo h1 {
+      text-align: center;
+      font-family: "PT Sans";
+      color: #FFC107;
+      font-size: 40px;
+      font-weight: bold; }
+      #meetup .titulo h1 span {
+        font-family: "PT Sans";
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: bold; } }
   #meetup .suma {
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center; }
     #meetup .suma img {
-      width: 100px; }
+      width: 50px; }
     #meetup .suma span {
       font-family: "PT Sans";
       color: #FFFFFF;
-      font-size: 60px;
+      font-size: 50px;
       font-weight: bold;
-      margin-right: 30px;
-      margin-left: 30px; }
+      margin-right: 20px;
+      margin-left: 20px; }
     #meetup .suma .fa {
       color: #FFFFFF;
-      font-size: 80px; }
+      font-size: 50px; }
+  #meetup .col-md-4 {
+    box-sizing: border-box; }
+  #meetup .blanco {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    height: 350px; }
+    #meetup .blanco button {
+      background-color: #FFA000; }
+      #meetup .blanco button a {
+        color: #FFFFFF;
+        text-decoration: none; }
+      #meetup .blanco button:hover {
+        background-color: #FFC107; }
+    #meetup .blanco .fa {
+      color: #FFC107;
+      font-size: 60px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  #meetup .parraf {
+    font-family: "PT Sans";
+    color: #212121;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center; }
+    #meetup .parraf button {
+      background-color: #FFC107; }
+      #meetup .parraf button a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: bold; }
 
 #programa {
   margin-top: 50px;
