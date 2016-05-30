@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+#bienvenida{
+	background-image: url(../image/bgstars.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+  		min-height: 90vh;
+  		text-align: center;
+	.fondo{
+		.welcome{
+  			width: 20%;
+  			margin-top: 40px;
+
+  		}
+  		.btn-primary{
+  			background-color: $naranjo-lab;
+  			border: 1px solid $naranjo-lab;
+  			color: $white;
+  			font-weight: bold;
+  			margin-top: 200px;
+			&:hover{
+				background-color: transparent;
+				border: transparent;
+			}
+  		}
+	}
+}
+#laboratoria{
+	margin: 60px 0;
+	.estructura-texto{
+		@include estructura-texto ($texto-osc, $texto-sec);
+	}
+	.lab{
+		width: 60%;
+		margin-top: 80px;
+		margin-left: 100px;
+	}
+}	
