@@ -1,0 +1,15 @@
+@mixin boton {
+	background-color:$naranjo-lab;
+	color: $white;
+	&:hover {
+		background-color:$amarillo-lab;
+	}
+}
+
+@mixin texto ($color, $size, $peso) {
+	font-family: "PT Sans";
+	color: $color;
+	font-size: $size;
+	font-weight: $peso;
+
+}
