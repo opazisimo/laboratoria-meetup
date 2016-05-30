@@ -1,0 +1,40 @@
+#colaboradores {
+	background-color: #9E9E9E;
+	padding: 20px;
+	margin: 10px;
+	height: 300px;
+	h1 {
+		color: #FFA000;
+	}
+
+	.laboratoria {
+		background-image: url(../image/logo.png);
+		background-repeat: no-repeat;
+		background-size: 250px;
+		height: 300px;
+		padding: 10px;
+		}
+		
+
+	.gitlab {
+		background-image: url(../image/icon-Gitlab.png);
+		background-repeat: no-repeat;
+		background-size: 250px;
+		}
+
+	.fabricamedios {
+		background-image: url(../image/icon-Blanco.png);
+		background-repeat: no-repeat;
+		background-size: 250px;
+		height: 400px;
+		border-image: 2px solid #B6B6B6;
+	}
+
+	.delsol {
+		background-image: url(../image/icon-sol.png);
+		background-repeat: no-repeat;
+		background-size: 250px;
+		height: 400px;
+		}
+		
+}
