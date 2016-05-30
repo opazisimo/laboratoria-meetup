@@ -1,6 +1,9 @@
 @mixin boton {
 	background-color:$naranjo-lab;
-	color: $white;
+	a {
+		color: $white;
+		text-decoration: none;
+	}
 	&:hover {
 		background-color:$amarillo-lab;
 	}
@@ -24,4 +27,14 @@
 		color: $colortexto;
 		font-weight: normal;
 	}
+}
+
+@mixin margen-seccion ($arriba, $abajo) {
+	margin-top: $arriba;
+	margin-bottom: $abajo;
+}
+
+@mixin pad-seccion ($arriba, $abajo) {
+	padding-top: $arriba;
+	padding-bottom: $abajo;
 }

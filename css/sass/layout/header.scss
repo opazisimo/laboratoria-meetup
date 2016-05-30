@@ -1,0 +1,39 @@
+#header {
+	.navbar-default {
+		.navbar-toggle {
+			.icon-bar {
+			background-color:$naranjo-lab;
+			}
+		}
+	}
+	background-color: $white;
+
+	nav {
+		background-color: $white;
+		.navbar-brand {
+			@include texto ($naranjo-lab, 20px, lighter);
+			span {
+				@include texto ($amarillo-lab, 20px, bold);
+
+			}
+		}
+		li {
+			margin-right: 20px;
+			button {
+				@include boton;
+				margin-top: 10px;
+			}
+				.scroller {
+					@include texto ($naranjo-lab, 16px, lighter); 
+					padding: 5px;
+					margin-top: 10px;
+					&:hover {
+						@include texto ($amarillo-lab, 16px, lighter);
+						border: 1px solid $amarillo-lab;
+						border-radius: 5px;
+
+					}
+				}
+		}
+	}
+}
