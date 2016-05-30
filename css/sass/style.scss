@@ -39,8 +39,14 @@ body{
 
 #laboratoria{
 	margin: 60px 0;
-	.estructura-texto{
-		@include estructura-texto ($texto-osc, $texto-sec);
+	.texto {
+		h1 {
+			@include texto ($naranjo-lab, 60px, bold);
+		}
+		p {
+			@include texto ($texto-osc, 16px, normal);
+			@include margen-seccion (30px, 30px);		
+		}
 	}
 	.lab{
 		width: 60%;

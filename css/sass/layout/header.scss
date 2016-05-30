@@ -14,7 +14,8 @@
 		.navbar-brand {
 			@include texto ($naranjo-lab, 20px, lighter);
 			span {
-				@include texto ($amarillo-lab, 20px, bold);
+				@include texto ($amarillo-lab, 20px, bolder);
+				text-transform: uppercase;
 
 			}
 		}

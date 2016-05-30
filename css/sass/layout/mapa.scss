@@ -7,7 +7,7 @@
 	}
 	.texto {
 		h1 {
-			@include texto ($naranjo-lab, 40px, bold);
+			@include texto ($naranjo-lab, 60px, bold);
 		}
 		p {
 			@include texto ($texto-osc, 16px, normal);
