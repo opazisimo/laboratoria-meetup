@@ -1,3 +1,81 @@
+#footer {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FFA000; }
+  #footer .uno img {
+    width: 80px; }
+  #footer .dos li {
+    display: inline-block;
+    margin-right: 100px; }
+    #footer .dos li a {
+      display: inline;
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 50px;
+      font-weight: normal; }
+      #footer .dos li a:hover {
+        font-family: "PT Sans";
+        color: #FFC107;
+        font-size: 50px;
+        font-weight: normal; }
+  @media (min-width: 320px) and (max-width: 767px) {
+    #footer .dos li {
+      display: inline-block;
+      margin-right: 20px; }
+      #footer .dos li a {
+        display: inline;
+        font-family: "PT Sans";
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: normal; }
+        #footer .dos li a:hover {
+          font-family: "PT Sans";
+          color: #FFC107;
+          font-size: 30px;
+          font-weight: normal; } }
+  #footer .tres img {
+    width: 80px; }
 
+#header {
+  background-color: #FFFFFF; }
+  #header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFA000; }
+  #header nav {
+    background-color: #FFFFFF; }
+    #header nav .navbar-brand {
+      font-family: "PT Sans";
+      color: #FFA000;
+      font-size: 20px;
+      font-weight: lighter; }
+      #header nav .navbar-brand span {
+        font-family: "PT Sans";
+        color: #FFC107;
+        font-size: 20px;
+        font-weight: bold; }
+    #header nav li {
+      margin-right: 20px; }
+      #header nav li button {
+        background-color: #FFA000;
+        margin-top: 10px; }
+        #header nav li button a {
+          color: #FFFFFF;
+          text-decoration: none; }
+        #header nav li button:hover {
+          background-color: #FFC107; }
+      #header nav li .scroller {
+        font-family: "PT Sans";
+        color: #FFA000;
+        font-size: 16px;
+        font-weight: lighter;
+        padding: 5px;
+        margin-top: 10px; }
+        #header nav li .scroller:hover {
+          font-family: "PT Sans";
+          color: #FFC107;
+          font-size: 16px;
+          font-weight: lighter;
+          border: 1px solid #FFC107;
+          border-radius: 5px; }
 
 /*# sourceMappingURL=main.css.map */

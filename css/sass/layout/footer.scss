@@ -1,0 +1,42 @@
+#footer {
+	text-align: center;
+	@include pad-seccion (20px, 20px);
+	background-color: $naranjo-lab;
+	.uno {
+		img {
+			width: 80px;
+		}
+	}
+	.dos {
+		li {
+			display: inline-block;
+			margin-right: 100px;
+			a {
+				display: inline;
+				@include texto ($white, 50px, normal);
+				&:hover {
+					@include texto ($amarillo-lab, 50px, normal);
+				}
+			}
+		}
+		@media (min-width: 320px) and (max-width: 767px) {
+			li {
+				display: inline-block;
+				margin-right: 20px;
+				a {
+					display: inline;
+					@include texto ($white, 30px, normal);
+					&:hover {
+						@include texto ($amarillo-lab, 30px, normal);
+					}
+				}
+			}
+		}
+
+	}
+	.tres {
+		img {
+			width: 80px;
+		}
+	}
+}
