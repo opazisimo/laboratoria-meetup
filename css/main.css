@@ -678,6 +678,11 @@ body {
 #invitados {
   padding-top: 100px;
   padding-bottom: 0px; }
+  #invitados .img-circle {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    display: inline-block; }
   #invitados .titulo {
     text-align: center; }
     #invitados .titulo h1 {
@@ -706,29 +711,31 @@ body {
     margin: 15px 10px 10px 70px;
     width: 200px;
     height: 200px; }
-  #invitados .caption h3 {
-    font-family: "PT Sans";
-    color: #FFA000;
-    font-size: 20px;
-    font-weight: bold; }
-    #invitados .caption h3:hover {
-      color: #FFFFFF; }
-  #invitados .caption p {
-    font-family: "PT Sans";
-    color: #212121;
-    font-size: 16px;
-    font-weight: normal; }
-    #invitados .caption p a {
+  #invitados .caption {
+    text-align: center; }
+    #invitados .caption h3 {
+      font-family: "PT Sans";
+      color: #FFA000;
+      font-size: 20px;
+      font-weight: bold; }
+      #invitados .caption h3:hover {
+        color: #FFFFFF; }
+    #invitados .caption p {
+      font-family: "PT Sans";
+      color: #212121;
+      font-size: 16px;
+      font-weight: normal; }
+      #invitados .caption p a {
+        color: #FFA000; }
+        #invitados .caption p a:hover {
+          color: #FFC107; }
+    #invitados .caption .fa {
       color: #FFA000; }
-      #invitados .caption p a:hover {
-        color: #FFC107; }
-  #invitados .caption .fa {
-    color: #FFA000; }
-    #invitados .caption .fa:hover {
-      color: #FFFFFF; }
-  #invitados .caption i {
-    font-size: 30px;
-    margin-right: 10px;
-    margin-left: 10px; }
+      #invitados .caption .fa:hover {
+        color: #FFFFFF; }
+    #invitados .caption i {
+      font-size: 30px;
+      margin-right: 10px;
+      margin-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */

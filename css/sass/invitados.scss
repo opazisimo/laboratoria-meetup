@@ -1,4 +1,11 @@
 #invitados{
+	.img-circle {
+		text-align: center;
+		width: 200px;
+		margin: 0 auto;
+		display: inline-block;
+
+	}
 	@include pad-seccion (100px, 0px);
 	.titulo {
 		text-align: center;
@@ -30,6 +37,7 @@
 		height: 200px;
 	}
 	.caption {
+		text-align: center;
 		h3 {
 			@include texto ($naranjo-lab, 20px, bold);
 				&:hover {
