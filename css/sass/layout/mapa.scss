@@ -6,6 +6,11 @@
 		border:0px;
 	}
 	.texto {
+		p{
+			padding-left: 80px;
+			padding-top:10px;
+		}
+		
 		h1 {
 			text-align: center;
 			@include texto ($naranjo-lab, 60px, bold);
