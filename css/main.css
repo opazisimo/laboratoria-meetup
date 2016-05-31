@@ -164,6 +164,12 @@ body {
     margin-left: 100px; }
   #laboratoria .foto {
     text-align: center; }
+  #laboratoria ul li {
+    display: inline; }
+    #laboratoria ul li a {
+      color: #FFA000;
+      font-size: 30px;
+      margin-right: 10px; }
 
 #colaboradores {
   padding-top: 50px;
@@ -315,15 +321,47 @@ body {
     font-weight: bold; }
 
 #contacto {
-  padding-top: 100px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url(../image/bgstars.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 90vh;
-  text-align: center; }
+  min-height: 90vh; }
+  #contacto .titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+    #contacto .titulo h1 {
+      text-align: center;
+      font-family: "PT Sans";
+      color: #FFC107;
+      font-size: 60px;
+      font-weight: bold; }
+    #contacto .titulo p {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: normal; }
+  #contacto textarea {
+    resize: none; }
+  #contacto .sw {
+    background-image: url(../image/sw.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; }
+  #contacto button {
+    background-color: #FFA000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF; }
+    #contacto button a {
+      color: #FFFFFF;
+      text-decoration: none; }
+    #contacto button:hover {
+      background-color: #FFC107; }
 
 body {
   margin: 0; }
@@ -389,6 +427,12 @@ body {
     margin-left: 100px; }
   #laboratoria .foto {
     text-align: center; }
+  #laboratoria ul li {
+    display: inline; }
+    #laboratoria ul li a {
+      color: #FFA000;
+      font-size: 30px;
+      margin-right: 10px; }
 
 #colaboradores {
   padding-top: 50px;
@@ -540,15 +584,47 @@ body {
     font-weight: bold; }
 
 #contacto {
-  padding-top: 100px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url(../image/bgstars.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 90vh;
-  text-align: center; }
+  min-height: 90vh; }
+  #contacto .titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+    #contacto .titulo h1 {
+      text-align: center;
+      font-family: "PT Sans";
+      color: #FFC107;
+      font-size: 60px;
+      font-weight: bold; }
+    #contacto .titulo p {
+      font-family: "PT Sans";
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: normal; }
+  #contacto textarea {
+    resize: none; }
+  #contacto .sw {
+    background-image: url(../image/sw.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px; }
+  #contacto button {
+    background-color: #FFA000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF; }
+    #contacto button a {
+      color: #FFFFFF;
+      text-decoration: none; }
+    #contacto button:hover {
+      background-color: #FFC107; }
 
 #programa {
   margin-top: 50px;

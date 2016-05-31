@@ -20,7 +20,7 @@ body{
 	  			margin-top: 40px;
 	  		}	
   		}
-	}
+	} 
 	.botones {
 		@include margen-seccion (30px, 100px);
 		.btn-lg{
@@ -65,6 +65,16 @@ body{
 	}
 	.foto {
 		text-align: center;
+	}
+	ul {
+		li {
+			display: inline;
+			a {
+				color: $naranjo-lab;
+				font-size: 30px;
+				margin-right: 10px;
+			}
+		}
 	}
 }	
 
@@ -207,14 +217,39 @@ body{
 	}
 }
 #contacto{
-	@include pad-seccion (100px, 0px);
+	@include pad-seccion (50px, 50px);
 	background-image: url(../image/bgstars.jpg);
 		background-size: cover;
 		background-attachment: fixed;
   		background-repeat: no-repeat;
   		background-position: center center;
   		min-height: 90vh;
-  		text-align: center;
-
+	.titulo {
+		@include margen-seccion (20px, 20px);
+		text-align: center;
+		h1 {
+			text-align: center;
+			@include texto ($amarillo-lab, 60px, bold);
+		}
+			p {
+				@include texto ($white, 16px, normal);
+			}
+	}
+  	
+  	textarea {
+		resize:none;
+  		}
+  		.sw {
+		background-image: url(../image/sw.png);
+		background-size: 300px;
+  		background-repeat: no-repeat;
+  		background-position: center;
+  		height: 300px;
+  		}
+  	button {
+  		@include boton;
+  		@include margen-seccion (20px, 20px);
+  		color: $white;
+  	}
 }
 
