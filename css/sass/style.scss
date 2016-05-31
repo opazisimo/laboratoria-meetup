@@ -35,7 +35,7 @@ body{
 			color: $white;
 			font-weight: bold;
 			text-decoration: none;
-			}
+			} 
 		}
 	}
 	.fecha{
@@ -144,6 +144,9 @@ body{
 #meetup {
 	@include pad-seccion (50px, 150px);
 	background-color: $naranjo-lab;
+	.btn{
+		margin-top: 40px;
+	}
 	.titulo {
 		h1 {
 			text-align: center;
