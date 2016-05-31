@@ -10,4 +10,24 @@
   #programa .media:hover {
     background-color: #B6B6B6; }
 
+#invitados .invitados-box {
+  border: 1px solid transparent;
+  border-radius: 0px;
+  padding: 15px;
+  margin-top: 20px; }
+  #invitados .invitados-box:hover {
+    background-color: #FFC107; }
+#invitados h1, #invitados h5 {
+  text-align: center; }
+#invitados h3, #invitados p, #invitados i {
+  text-align: center; }
+  #invitados h3 i, #invitados p i, #invitados i i {
+    font-size: 26px;
+    color: #212121;
+    padding: 5px 15px; }
+#invitados img {
+  margin: 15px 10px 10px 70px;
+  width: 200px;
+  height: 200px; }
+
 /*# sourceMappingURL=main.css.map */
