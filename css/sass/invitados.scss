@@ -1,30 +1,63 @@
 #invitados{
+	@include pad-seccion (100px, 0px);
+	.titulo {
+		text-align: center;
+		h1 {
+			@include texto ($naranjo-lab, 60px, bold);
+			@include margen-seccion (50px, 0px);
+		}
+		h5 {
+			@include texto ($texto-osc, 18px, normal);
+		}
+	}
 	.invitados-box{
+		text-align: center;
 		border:1px solid transparent;
 		border-radius:0px;
 		padding:15px;
 		&:hover{
 			background-color:$amarillo-lab;
+			h3 {
+				color: $white;
+			}
 		}
 		margin-top:20px;
 	}
 
-	h1 , h5{
-		text-align: center;
-	}
-
-	h3, p, i{
-		text-align: center;
-		i{
-			font-size: 26px;
-			color:$texto-osc;
-			padding:5px 15px;
-		}
-	}
 	img{
 		margin:15px 10px 10px 70px;
 		width: 200px;
 		height: 200px;
 	}
+	.caption {
+		h3 {
+			@include texto ($naranjo-lab, 20px, bold);
+				&:hover {
+					color: $white;
+				}
+		}
+		p {
+			@include texto ($texto-osc, 16px, normal);
+
+			a {
+				color: $naranjo-lab;
+				&:hover {
+					color: $amarillo-lab;
+				}
+			}
+		}
+		.fa {
+			color: $naranjo-lab;
+				&:hover {
+					color: $white;
+				}
+		}
+		i {
+			font-size: 30px;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+	}
 
 }
+

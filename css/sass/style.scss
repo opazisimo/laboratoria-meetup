@@ -22,9 +22,9 @@ body{
   		}
 	}
 	.botones {
-		@include margen-seccion (100px, 100px);
+		@include margen-seccion (30px, 100px);
 		.btn-lg{
-			@include margen-seccion (30px, 30px);
+			@include margen-seccion (10px, 30px);
 			background-color: $naranjo-lab;
 			border: 1px solid $naranjo-lab;
 			&:hover{
@@ -36,6 +36,12 @@ body{
 			font-weight: bold;
 			text-decoration: none;
 			}
+		}
+	}
+	.fecha{
+		text-align: center;
+		h1 {
+		@include texto ($naranjo-lab, 70px, bold);
 		}
 	}
 }
@@ -195,4 +201,20 @@ body{
 			}
 		}
 	}
+	.fecha {
+		text-align: center;
+		@include texto ($texto-osc, 26px, bold);
+	}
 }
+#contacto{
+	@include pad-seccion (100px, 0px);
+	background-image: url(../image/bgstars.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+  		background-repeat: no-repeat;
+  		background-position: center center;
+  		min-height: 90vh;
+  		text-align: center;
+
+}
+
