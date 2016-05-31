@@ -124,46 +124,6 @@ body{
 	}
 }
 
-/*{
-	background-color: #B6B6B6;
-	padding: 20px;
-	margin: 10px;
-	height: 300px;
-	float: left;
-	.colab {
-		border: 2px solid #FFECB3;
-		border-radius: 13px;
-		.text-colaborador, .colaborador-text {
-			visibility: hidden;
-		}
-
-		&:hover {
-			border: 2px solid black;
-			border-radius: 16px;
-			padding-top: 0;
-			.colaborador-text {
-				color: #FFA000;
-				visibility: visible;
-			}
-			.text-colaborador {
-				color: black;
-				text-align: justify;
-				visibility: visible;
-			}
-		}
-		img {
-			height: 200px;
-			width: 100%;
-			&:hover {
-				visibility: hidden;
-			}
-		}
-	}
-	.colaborar-title {
-		color: #FFECB3;
-	}
-		
-}*/
 
 #meetup {
 	@include pad-seccion (50px, 150px);
